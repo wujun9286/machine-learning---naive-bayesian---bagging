@@ -22,3 +22,16 @@ Three datasets from the UCI Machine Learning Repository were used:
 - Banknote Authentication
 - Glass Identification
 - Image Segmentation
+
+# Statistical Analysis
+Performance was evaluated using statistical hypothesis testing based on the course evaluation framework.
+The report includes:
+- Single dataset aggregation on dataset
+- Single dataset aggregation on fold (matched sample)
+- Multiple datasets aggregation on dataset
+- Multiple datasets aggregation on fold (matched sample)
+
+# Conclusion
+Experimental results indicate that Bagging did not consistently outperform a single Naive Bayesian Classifier.
+Although Bagging achieved slightly higher estimated accuracy in some datasets, most statistical tests failed to show significant improvements.
+Increasing the number of base models also did not consistently improve classification performance.
